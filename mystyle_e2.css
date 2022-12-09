@@ -1,0 +1,130 @@
+	header{
+		height: 40px;
+		background-color:#c447a5
+		}
+		
+		body{
+		padding: 10px;
+		margin: 0;
+		font-family: Helvetica;
+		background-color:#edd5e9
+		}
+		
+		#Inceput{
+		margin-left: 10px;
+		background-color: #f7c1a6;
+		color: #8b489c;
+		padding: 20px;
+		border: 2px solid;
+		}
+		
+		#date_contact{
+		margin-left: 10px;
+		color: #a27db8;
+		font: bold;
+		
+		}
+
+		#subtitlu{
+		margin-left: 10px;
+		color: #6b3bed;
+		}
+		
+		
+		table, td, th{
+		border: 3px solid;
+		border-color: #be71eb;
+		border-collapse: collapse;
+		padding: 10px;
+		}
+		
+		#pozaprofil2{
+		border-radius: 30px;
+		padding: 20px;
+		top: 80px;
+		right: 200px;
+		opacity: 5.9;
+		width: 550px ;
+		height: 400px;+
+		}
+		
+		div.bor{
+			border:3px solid brown; 
+			background:#b2cbed;
+		}
+		
+		#pozaprofil{
+		border-radius: 30px;
+		padding: 20px;
+		top: 80px;
+		right: 200px;
+		opacity: 5.9;
+		width: 350px ;
+		height: 300px;+
+		}
+		
+		.imaginiSlide{
+    width: 1000px;
+    height: 600px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+    border-radius: 5%;
+	}
+	
+	.titluri3{
+    margin-left: 10px;
+		color: #6b3bed;
+}
+		
+	.slideshow-container{
+    max-width: 300px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+}
+.informatii{
+    max-width: 300px;
+    position: relative;
+    margin: auto;
+    text-align: inline-block;
+    margin-left: 40%;
+}
+.linkPag{
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    padding: 4px 12px;
+    position: absolute;
+    bottom: 4px;
+    padding-left: 25px;
+    
+    text-align: center;
+}
+active {
+    background-color: burlywood;
+}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+    from{
+        opacity: 0.8;
+    }
+    to{
+        opacity: 0.1;
+    }
+}
+@keyframes fade{
+    form{
+        opacity: 0.4;
+    }
+    to{
+        opacity: 1;
+    }
+}
